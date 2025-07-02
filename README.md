@@ -1,3 +1,3 @@
 # 100_Day_Of_Python
-Learning Python\n
+Learning Python<br>
 Author-Ankita Khamkar
