@@ -69,3 +69,50 @@ print(L)
 # 3)insert==>Adding to desired index
 L.insert(1,100)
 print(L)
+
+#  ______________________________________________________________________
+
+# Editing items in List
+L=[1,2,3,4]
+L[-1]=5
+print(L)
+
+# Editing with Slicing
+L[:]=[1,2,3,3]
+print(L)
+
+#  ______________________________________________________________________
+
+# Deleting Items from List
+# 1)del
+# del(L)
+# deletion using indexing
+del(L[-1])
+# deletion using slicing
+del(L[1:3])
+
+# 2)remove(number)
+L=[1,2,3,4,5]
+L.remove(5)
+
+# 3)pop(index)
+L.pop(1)
+print(L)
+
+# 4)clear==>empty list
+L.clear()
+print(L)
+
+#  ______________________________________________________________________
+
+# Operation on List
+# 1)Arithematic Operator
+l1=[1,2]
+l2=[3,4]
+# concatenation
+print(l1+l2)
+
+# Multiplaction
+print(l1*4)
+
+# 2)Membership Operator
