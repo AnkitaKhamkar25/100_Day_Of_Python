@@ -116,3 +116,25 @@ print(l1+l2)
 print(l1*4)
 
 # 2)Membership Operator
+print(5 in l1)
+print(2 not in l2)
+
+# 3)Loops
+for i in l1:
+    print(i)
+
+#  ______________________________________________________________________
+
+# function in list
+# len/min/max/sorted
+L=[2,3,4,7,2]
+print(len(L))  #provide length of list
+print(max(L))  #provide max item of list
+print(min(L))  #provide min item of list
+print(sorted(L)) #provide lsorted list
+
+# count(item)
+print(L.count(2))
+
+# index==>provide index of an item
+L.index(2)
