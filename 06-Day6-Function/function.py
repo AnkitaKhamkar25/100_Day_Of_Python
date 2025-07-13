@@ -17,3 +17,18 @@
 # calling the function
 # name_of_function()
 
+
+# sample function
+def is_even(num):
+    """This function return if a given number is odd or even
+    input-any valid integer
+    output-16th nov 2022
+    """
+    if num%2==0:
+        return "even"
+    else:
+        return "odd"
+    
+for i in range(1,100):
+    x=is_even(i)
+    print(i,"is",x)
