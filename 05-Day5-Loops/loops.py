@@ -30,3 +30,47 @@ while x<3:
     x=x+1
 else:
     print("limit crossed")
+
+
+# Guessing Game Using while Loop
+import random 
+jackpot=random.randint(1,100)
+guess=int(input("Enter jackpot number"))
+counter=1
+while guess!=jackpot:
+    if guess<jackpot:
+        print("guess higher")
+    else:
+        print("guess lower")
+    guess=int(input("Enter jackpot number"))
+    counter+=1
+
+else:
+    print("correct guess")
+    print("attempt",counter)
+
+
+# __________________________________________________
+
+# For Loop
+# syntax:for i in range(start,end,stepsize)
+for i in range(1,11):
+    print(i)
+
+
+for i in range(1,11,2):
+    print(i)  
+
+# traversing in string using for loop:
+for i in 'Delhi':
+    print(i) 
+
+# traversing on list
+for i in [1,2,3,4,5]:
+    print(i)
+
+# traversing on tuple
+for i in (1,2,3,4,5):
+    print(i)
+
+
