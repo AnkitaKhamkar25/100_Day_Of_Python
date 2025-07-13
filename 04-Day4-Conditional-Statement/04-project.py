@@ -1,3 +1,4 @@
+# Welcome to the Menu-Driven Calculator
 
 RESET   = "\033[0m"
 GREEN   = "\033[1;32m"
