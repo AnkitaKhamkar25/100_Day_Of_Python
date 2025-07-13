@@ -2,7 +2,6 @@
 # The main conditional statements in Python are:
 # using simple example
 
-
 # __________________________________________________
 
 # if-else statement

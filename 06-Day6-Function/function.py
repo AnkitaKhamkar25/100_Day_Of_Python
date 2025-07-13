@@ -9,3 +9,11 @@
     # abstraction
     # decomposition
 
+#syntax of function:
+# def name_of_function() :
+        # """docstring==>used to provide information about function"""
+        # function body
+        # return
+# calling the function
+# name_of_function()
+
